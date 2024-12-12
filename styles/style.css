@@ -48,21 +48,15 @@ body {
 
 @media (max-width: 700px) {
     .container {
-        width: 100%;
-        max-width: 500px;
-        padding: 150px 30px;
+        padding: 100px 15px;
     }
     
     .container__inner {
-        row-gap: 50px;
-    }
-    
-    .counter {
-        font-size: 28px;
+        row-gap: 45px;
     }
     
     .button {
-        padding: 20px 50px;
+        padding: 12px 20px;
         width: 100%;
         font-size: 28px;
     }
