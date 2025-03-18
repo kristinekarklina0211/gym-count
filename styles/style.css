@@ -1,0 +1,67 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 126px 15px;
+}
+
+.container__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.counter {
+    color: #000;
+    font-size: 32px;
+}
+
+.button {
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    
+    cursor: pointer;
+    font-family: inherit;
+
+    color: #FFF;
+    font-size: 32px;
+}
+
+.blue-button {
+    background: #4191FF;
+}
+
+.red-button {
+    background: #D45366;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 100px 30px;
+    }
+    
+    .container__inner {
+        row-gap: 45px;
+    }
+
+    .counter {
+        font-size: 40px;
+    }
+    
+    .button {
+        padding: 12px 20px;
+        width: 100%;
+        font-size: 28px;
+    }
+  }
